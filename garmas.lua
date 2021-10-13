@@ -5,7 +5,7 @@ RegisterCommand('garmas',function(source,args,rawCommand)
 
     if user_id then
         if vRP.hasPermission(user_id,"policia.permissao") then
-            TriggerClientEvent("Notify",source,"negado","Negado","Você não pode guardar seus armamentos.")
+            TriggerClientEvent("Notify",source,"negado","Negado","Você não pode guardar se armamento.")
         else
 			
             TriggerClientEvent("Notify",source,"aviso","Aviso","<b>Aguarde</b> seus armamentos estao sendo guardados.",9500)
